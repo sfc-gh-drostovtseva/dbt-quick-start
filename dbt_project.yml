@@ -34,8 +34,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   daria_dbt_workshop:
     # Applies to all files under models/example/
-    example:
-      materialized: view
     staging:
       schema: staging
       materialized: view
